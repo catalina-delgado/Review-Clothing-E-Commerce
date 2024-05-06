@@ -4,10 +4,6 @@
 #%% Librerias
 import pandas as pd
 
-#%% Inicializar MLflow
-mlflow.set_tracking_uri("content")
-mlflow.set_experiment("Modelos")
-
 #%% Cargar datos
 db = pd.read_csv('content/validation/Womens Clothing E-Commerce Reviews.csv')
 
