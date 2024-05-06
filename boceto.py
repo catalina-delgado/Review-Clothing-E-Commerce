@@ -40,7 +40,6 @@ data = db.dropna(subset=['Review Text'])
 # Calcular la longitud de cada revisión
 data['Review Length'] = data['Review Text'].apply(lambda x: len(word_tokenize(x)))
 #%% Realizar análisis de sentimientos
-# (Se requiere un modelo de análisis de sentimientos previamente entrenado)
 
 from nltk.corpus import stopwords
 from nltk.sentiment.vader import SentimentIntensityAnalyzer

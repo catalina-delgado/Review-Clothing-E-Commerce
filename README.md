@@ -10,3 +10,4 @@ Permite visualizer el análisis exploratorio de los datos mediante una configura
 3.	Análisis de Sentimientos: permite visualizar la clasificación de los sentimientos que genera cada producto en los compradores de acuerdo a un análisis de puntuación de sentimientos, donde 1 es un sentimiento positivo, 0 un sentimiento neutro y -1 un sentimiento negativo.
 
 ## 2. MLflow Analisis
+Registro de las métricas de entrenamiento de un modelo de regresión logística para la predicción de clases de ropa, con un 80% de los datos para el entrenamiento y un 20% de los datos para los datos de prueba. El modelo es entrenado con 1000 iteraciones y entrega un total de 4334 de clases predichas y un valor de precisión del 0.27.
