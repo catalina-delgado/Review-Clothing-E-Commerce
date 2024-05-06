@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/509783042216488808/c55c22851c0849b6ac19b1279bcbb828/artifacts
+end_time: 1714977464163
+entry_point_name: ''
+experiment_id: '509783042216488808'
+lifecycle_stage: active
+run_id: c55c22851c0849b6ac19b1279bcbb828
+run_name: shivering-grub-803
+run_uuid: c55c22851c0849b6ac19b1279bcbb828
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714977452459
+status: 4
+tags: []
+user_id: Catalina

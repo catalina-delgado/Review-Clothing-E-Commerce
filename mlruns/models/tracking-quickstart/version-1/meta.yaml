@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1714977329278
+current_stage: None
+description: ''
+last_updated_timestamp: 1714977329278
+name: tracking-quickstart
+run_id: 91ec61c0db3641389653a6e0dfdc2708
+run_link: ''
+source: mlflow-artifacts:/509783042216488808/91ec61c0db3641389653a6e0dfdc2708/artifacts/PositiveScore
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/509783042216488808/91ec61c0db3641389653a6e0dfdc2708/artifacts/PositiveScore
+user_id: null
+version: 1

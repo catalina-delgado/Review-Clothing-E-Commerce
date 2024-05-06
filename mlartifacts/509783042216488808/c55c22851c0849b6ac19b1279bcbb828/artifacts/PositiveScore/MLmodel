@@ -1,0 +1,28 @@
+artifact_path: PositiveScore
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.11
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.4.2
+mlflow_version: 2.11.3
+model_size_bytes: 113959
+model_uuid: cdb423fa35d74646bb90251f2db7ba68
+run_id: c55c22851c0849b6ac19b1279bcbb828
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Age", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-05-06 06:37:32.534668'

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/509783042216488808/74b4683adb9c48df985380866f824236/artifacts
+end_time: 1714978051441
+entry_point_name: ''
+experiment_id: '509783042216488808'
+lifecycle_stage: active
+run_id: 74b4683adb9c48df985380866f824236
+run_name: fortunate-newt-693
+run_uuid: 74b4683adb9c48df985380866f824236
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714978037456
+status: 3
+tags: []
+user_id: Catalina
