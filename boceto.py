@@ -2,7 +2,6 @@
 # Analítica de Datos
 # Mayo 2024
 #%% Librerias
-import mlflow
 import pandas as pd
 
 #%% Inicializar MLflow
@@ -17,6 +16,7 @@ db=db[['Clothing ID', 'Age', 'Review Text', 'Class Name']]
 db['Clothing ID']=db['Clothing ID'].astype(str)
 p_nulos = (db.isnull().sum() / len(db)) * 100
 unique = db.nunique()
+
 types = db.dtypes
 pd.DataFrame({'% valores nulos': p_nulos, 'valores unicos': unique, 'Tipo': types})
 
